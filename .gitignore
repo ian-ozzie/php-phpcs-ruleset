@@ -1,0 +1,4 @@
+/.direnv
+/composer.lock
+/flake.lock
+/vendor
