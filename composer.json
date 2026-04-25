@@ -1,0 +1,25 @@
+{
+    "name": "ian-ozzie/phpcs",
+    "description": "My Coding Standard for PHP_CodeSniffer.",
+    "type": "phpcodesniffer-standard",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Oswald",
+            "email": "ian@ozzie.id.au"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || ^1.2.0",
+        "slevomat/coding-standard": "^8.22",
+        "squizlabs/php_codesniffer": "^3.13"
+    }
+}
